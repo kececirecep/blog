@@ -1,6 +1,6 @@
 import React from 'react'
-import PostDetailHero from '../../../Components/PostDetailHero/PostDetailHero'
-import Menu from '../../../Components/Menu/Menu'
+import PostDetailHero from '../../Components/PostDetailHero/PostDetailHero'
+import Menu from '../../Components/Menu/Menu'
 
 const PostDetails = () => {
     return (
