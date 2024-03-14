@@ -1,0 +1,40 @@
+ .postcard-container{
+    margin: 20px auto; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .postcard{
+        width: 980px; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 20px;
+        background: white;
+        margin-bottom: 20px;
+
+        .text{
+            padding: 30px;
+            h6{
+                text-transform: uppercase;
+                color: #667085;
+                padding-bottom: 20px;
+            }
+            h2{
+                color: #1D2939;
+                padding-bottom: 15px;
+            }
+            p{
+                color: #475467;
+            }
+        }
+        img{
+            object-fit: cover;
+            width: 300px;
+            height: 210px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+    }
+ }

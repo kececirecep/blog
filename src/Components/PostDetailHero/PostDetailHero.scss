@@ -1,0 +1,31 @@
+.postDetailHero-container {
+    height: 435px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    .postDetailHero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 970px;
+        text-align: center; 
+        margin-bottom: -80px;
+
+        h2 {
+            font-size: 70px;
+            font-weight: 800;
+            color: transparent; 
+            background: linear-gradient(to right, #c41740, #ea9c28); 
+            -webkit-background-clip: text; 
+            background-clip: text; 
+            margin-bottom: 30px;
+        }
+        p{
+            width: 690px;
+            color:#000000;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}
