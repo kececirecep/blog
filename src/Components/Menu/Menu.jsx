@@ -5,7 +5,7 @@ const Menu = () => {
   return (
     <div className='menu-container'>
       <div className="menu-content">
-        <img src="/images/logo.svg" alt="" />
+        <img src="/images/logo.png" alt="" />
         <ul>
           <li>Daily Digest</li>
         </ul>
