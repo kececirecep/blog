@@ -2,6 +2,7 @@ import React from 'react'
 import './PostDetails.scss'
 import PostDetailHero from '../../Components/PostDetailHero/PostDetailHero'
 import Menu from '../../Components/Menu/Menu'
+import Footer from '../../Components/Footer/Footer'
 
 
 const PostDetails = () => {
@@ -31,7 +32,7 @@ const PostDetails = () => {
             </div>
 
 
-
+        <Footer/>
         </div>
     )
 }

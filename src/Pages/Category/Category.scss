@@ -1,0 +1,28 @@
+.category-container{
+    border:1px solid red; 
+
+    .category-box{
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:10px;
+
+        img{
+            width: 200px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        h4{
+            padding-top: 20px;
+            font-weight: 500;
+            font-size: 22px;
+        }
+    }
+}

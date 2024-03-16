@@ -7,7 +7,7 @@ const Menu = () => {
       <div className="menu-content">
         <img src="/images/logo.png" alt="" />
         <ul>
-          <li>Daily Digest</li>
+          <li>Blogs</li>
         </ul>
       </div>
     </div>
