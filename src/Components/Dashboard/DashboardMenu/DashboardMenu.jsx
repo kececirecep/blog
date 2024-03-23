@@ -1,5 +1,5 @@
 import React from 'react'
-import './PanelMenu.scss' 
+import './DashboardMenu.scss' 
 import { RiDashboardFill } from "react-icons/ri";
 
 import { BsFillPinAngleFill } from "react-icons/bs";
@@ -7,7 +7,7 @@ import { MdPermMedia } from "react-icons/md";
 import { RiPagesFill } from "react-icons/ri";
 import { IoMdSettings } from "react-icons/io";
 
-const PanelMenu = () => {
+const DashboardMenu = () => {
   return (
     <div className='panelmenu-container'>
       <ul>
@@ -21,4 +21,4 @@ const PanelMenu = () => {
   )
 }
 
-export default PanelMenu
+export default DashboardMenu

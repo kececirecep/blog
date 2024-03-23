@@ -1,0 +1,60 @@
+.dahsboardPosts-container {
+    margin-left: 160px;
+    margin-right: 40px;
+}
+
+table {
+    margin:20px;
+    width: 100%;
+    border-collapse: collapse;
+
+
+    table,
+    th,
+    td {
+        border: 1px solid #ddd;
+    }
+
+    th{
+        font-weight: 600;
+
+    }
+    th,
+    td {
+        padding: 8px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    tr:hover {
+        background-color: #f5f5f5;
+    }
+
+    img {
+        max-width: 100px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+// @media only screen and (max-width: 600px) { 
+
+//     th,
+//     td {
+//         display: block;
+//         width: 100%;
+//     }
+
+//     td {
+//         text-align: center;
+//     }
+
+//     img {
+//         max-width: 80px;
+//     }
+// } 
