@@ -29,3 +29,10 @@
         }
     }
 }
+
+
+@media screen and (max-width: 800px) {
+     .panelmenu-container{
+        display: none;
+     }
+}

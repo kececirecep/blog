@@ -1,0 +1,46 @@
+ .upload-container {
+     padding: 20px;
+     margin-left: 160px;
+     margin-right: 40px;
+
+     h2 {
+         font-weight: 400;
+         font-size: 22px;
+         padding-bottom: 25px;
+     }
+
+     form {
+         border: 3px dashed #C3C4C7;
+         height: 250px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+
+         .upload-text {
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: center;
+
+             span {
+                 padding: 6px 0px;
+             }
+         }
+
+         .file-input {  
+         }
+ 
+     }
+ }
+
+
+ @media only screen and (max-width: 800px) {
+    .upload-container {
+        margin-left: 0px;  
+        img {
+            max-width: 100%;
+        }
+    }
+}
+  

@@ -26,3 +26,15 @@
         }
     }
 }
+
+
+
+
+@media screen and (max-width: 550px) {
+    .menu-container {
+        .menu-content {
+            flex-direction: column; 
+             padding: 10px 0px;
+        }
+    }
+}

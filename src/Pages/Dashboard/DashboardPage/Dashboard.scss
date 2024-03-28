@@ -33,22 +33,22 @@
             height: 300px;
             border: 1px solid black;
             display: flex;
-            align-items: center; 
+            align-items: center;
 
             .services-box {
-                text-align: center;   
+                text-align: center;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                justify-content: center; 
+                justify-content: center;
                 padding: 10px;
                 margin: 10px;
                 width: 33%;
                 height: 200px;
 
-                span{ 
+                span {
                     background: #000;
-                    color:white;
+                    color: white;
                     width: 50px;
                     height: 50px;
                     border-radius: 5px;
@@ -58,14 +58,61 @@
                     justify-content: center;
                 }
 
-                h4{
+                h4 {
                     font-weight: 500;
                     padding: 20px 0px;
                     font-size: 18px;
                 }
-                p{
+
+                p {
                     font-weight: 400;
                     font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .dashboardpage-container {
+        margin-left: 0px;
+
+        .welcome-container {
+            height: 100%;
+
+            .welcome{
+                h4{
+                    font-size: 30px;
+                }
+            }
+            .services {
+                justify-content: flex-start;
+                flex-direction: column;
+                height: auto;
+
+                .services-box {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .dashboardpage-container {
+        margin-left: 0px;
+
+        .welcome-container {
+            height: 100%;
+            .services {
+                justify-content: flex-start;
+                flex-direction: column;
+                height: auto;
+
+                .services-box {
+                    width: 100%;
                 }
             }
         }

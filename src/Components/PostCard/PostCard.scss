@@ -38,3 +38,29 @@
         }
     }
  }
+
+
+ @media screen and (max-width: 1000px) {
+    .postcard-container {
+        .postcard {
+            flex-direction: column; 
+            width: 400px;
+
+            img{
+                width: 90%;
+            }
+ 
+        }
+    }
+}
+
+
+@media screen and (max-width: 460px) {
+    .postcard-container {
+        .postcard {
+            flex-direction: column; 
+            width: 390px; 
+ 
+        }
+    }
+}

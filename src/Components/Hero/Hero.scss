@@ -1,5 +1,5 @@
 .hero-container {
-    height: 560px; 
+    height: 560px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,17 +25,51 @@
         h2 {
             font-size: 70px;
             font-weight: 800;
-            color: transparent; 
-            background: linear-gradient(to right, #2c2c2c, #2485b3); 
-            -webkit-background-clip: text; 
-            background-clip: text; 
+            color: transparent;
+            background: linear-gradient(to right, #2c2c2c, #2485b3);
+            -webkit-background-clip: text;
+            background-clip: text;
             margin-bottom: 30px;
         }
-        p{
-            width: 690px;
-            color:#475467;
+
+        p {
+            width: 660px;
+            color: #475467;
             font-size: 22px;
             font-weight: 400;
+        }
+    }
+}
+
+
+@media screen and (max-width: 690px) {
+    .hero-container {
+        .hero-content {
+            width: 500px;
+
+            h2 {
+                font-size: 42px;
+            }
+
+            p {
+                width: 470px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .hero-container {
+        .hero-content {
+            width: 360px;
+
+            h2 {
+                font-size: 32px;
+            }
+
+            p {
+                width: 320px;
+            }
         }
     }
 }

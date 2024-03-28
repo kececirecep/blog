@@ -42,9 +42,9 @@ const PanelHome = () => {
               myServicesData.map((item, index) => {
                 return (
                   <div key={index} className='services-box'>
-                      <span>{item.icon}</span>
-                      <h4>{item.title}</h4>
-                      <p>{item.desc}</p>
+                    <span>{item.icon}</span>
+                    <h4>{item.title}</h4>
+                    <p>{item.desc}</p>
                   </div>
                 )
               })
@@ -52,7 +52,7 @@ const PanelHome = () => {
           </div>
         </div>
       </div>
-      
+
     </div>
   )
 }

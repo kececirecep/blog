@@ -29,3 +29,41 @@
         }
     }
 }
+
+
+
+
+@media screen and (max-width: 900px) {
+    .postDetailHero-container {
+        .postDetailHero-content {
+            flex-direction: column; 
+            width: 500px; 
+
+            h2{
+                font-size: 50px;
+            }
+            p{
+                width: auto;
+            }
+ 
+        }
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .postDetailHero-container {
+        .postDetailHero-content {
+            flex-direction: column; 
+            width: 300px; 
+
+            h2{
+                font-size: 30px;
+            }
+            p{
+                width: auto;
+            }
+ 
+        }
+    }
+}
